@@ -1,0 +1,92 @@
+<!DOCTYPE HTML>
+<!--
+	Typify by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+	<head>
+		<title>Typify by TEMPLATED</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+	</head>
+	<body onload="fnLoad()">
+
+		<!-- Banner -->
+			<section id="banner">
+				<h2><strong>Typify</strong> is a free responsive site template</h2>
+				<p>Brought to you by Templated</p>
+				<ul class="actions">
+					<li><a href="#" class="button special">Get started</a></li>
+				</ul>
+			</section>
+
+		<!-- One -->
+			<section id="one" class="wrapper special">
+				<div class="inner">
+					<header class="major">
+						<h2>Lorem ipsum feugiat tempus</h2>
+					</header>
+					<header>
+						<h1>PEDRA, PAPEL OU TESOURA!</h1>
+
+						<h2>Qual você escolhe?</h2>
+				
+						<div id="imgBtn">
+							<div id="img">
+								<img id="img1" onclick="escolha('1')" src="images/pedra.png">
+								<img id="img2" onclick="escolha('2')" src="images/papel.png">
+								<img id="img3" onclick="escolha('3')" src="images/tesoura.png">
+							</div>
+							<div id="botoes">
+								<button onclick="escolha('1')" value="pedra">Pedra</button>
+								<button onclick="escolha('2')" value="papel">Papel</button>
+								<button onclick="escolha('3')" value="tesoura">Tesoura</button>
+							</div>
+						</div>
+				
+						<h2 id="outcome" class="vencedor"></h2>
+						<h2 id="contador"></h2>
+				
+						<div id="game">
+							<div id="player">
+								<div class="score"> VOCÊ</div>
+								<img class="selecionada" id="opcaoPlayer" src="images/escolha.png" />
+							</div>
+							<div id="computer">
+								<div class="score">COMPUTADOR</div>
+								<img class="selecionada" id="opcaoMaquina" src="images/roleta.gif">
+							</div>
+						</div>
+			</section>
+
+		<!-- Two -->
+			<section id="two" class="wrapper style2 special">
+				
+					<div class="container">
+							<div>
+									<select id="grid">
+									</select>
+							</div>
+							<div class="minContainer">
+									<table class="row" id="game"></table>
+							</div>
+					</div>
+			</section>
+
+
+
+		
+		<!-- Scripts -->
+			<script src="assets/js/main.js"></script>
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			
+
+	</body>
+</html>
